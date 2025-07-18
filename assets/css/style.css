@@ -23,6 +23,16 @@ html {
 
 #nav li {
     display: inline-block;
+    position: relative;
+}
+
+#nav > ul > li > a {
+    text-transform: uppercase;
+}
+
+#nav li:hover > a {
+    color: black !important;
+    background-color: #ccc;
 }
 
 #nav li a {
@@ -30,15 +40,32 @@ html {
     text-decoration: none;
     padding: 0 24px;
     line-height: 46.5px;
-    display: flexbox;
+    display: block;
 }
 
 #nav .subnav {
     display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav li {
+    display: block;
+}
+
+#nav .subnav a {
+    color: black;
+    background-color: white;
+    padding: 0 16px;
 }
 
 #slider {
-
+    
 }
 
 #content {
