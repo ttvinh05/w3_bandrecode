@@ -18,7 +18,7 @@ html {
 }
 
 #nav {
-
+    display: inline-block;
 }
 
 #nav li {
@@ -62,6 +62,22 @@ html {
     color: black;
     background-color: white;
     padding: 0 16px;
+}
+
+#header #nav_search {
+    float: right;
+    line-height: 46.5px;
+    padding: 0 24px;
+}
+
+#header #nav_search:hover {
+    background-color: #f44336 !important;
+    cursor: pointer;
+}
+
+#header #nav_search .fa-solid.fa-magnifying-glass {
+    color: white;
+    font-size: 14px;
 }
 
 #slider {
