@@ -13,6 +13,10 @@ html {
 }
 
 #header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     height: 46.5px;
     background-color: black;
 }
@@ -81,7 +85,10 @@ html {
 }
 
 #slider {
-    
+    position: absolute;
+    top: 46.5px;
+    left: 0;
+    right: 0;
 }
 
 #content {
