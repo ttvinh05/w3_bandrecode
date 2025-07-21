@@ -19,6 +19,7 @@ html {
     left: 0;
     height: 46.5px;
     background-color: black;
+    z-index: 1;
 }
 
 #nav {
@@ -85,14 +86,33 @@ html {
 }
 
 #slider {
+    position: relative;
+    margin-top: 46.5px;
+    padding-top: 50%;
+    background: url(/assets/img/slider/slider1.jpg) top center / contain no-repeat;
+}
+
+#slider .slider-content {
     position: absolute;
-    top: 46.5px;
-    left: 0;
-    right: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+#slider .slider-content .slider-heading {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#slider .slider-content .slider-text {
+    margin-top: 25px;
+    font-size: 15px;
+    margin-bottom: 47px;
 }
 
 #content {
-
+    height: 1000px;
 }
 
 #footer {
