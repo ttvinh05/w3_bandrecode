@@ -12,6 +12,10 @@ html {
     clear: both;
 }
 
+.text-white {
+    color: white !important;
+}
+
 #main {
 
 }
@@ -166,6 +170,44 @@ html {
 #content .member-img {
     width: calc(100% / 1.6);
     border-radius: 4px;
+}
+
+#content .tour-section {
+    background-color: black;
+}
+
+#content .tour-section .list-tour {
+    background-color: white;
+    margin-top: 40px;
+}
+
+.list-tour li {
+    font-size: 15px;
+    padding: 8px 16px;
+    border-bottom: #ddd 1px solid;
+    color: #757575;
+    list-style-type: none;
+}
+
+.list-tour .sold-out {
+    background-color: #f44336;
+    color: white;
+    margin: 0 0 0 16px;
+    padding: 3px 8px;
+}
+
+.list-tour .quantity {
+    float: right;
+    width: 24px;
+    height: 23px;
+    text-align: center;
+    line-height: 23px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    margin-right: 16px;
+    padding: 0 8px;
+    margin-top: -3px;
 }
 
 #footer {
