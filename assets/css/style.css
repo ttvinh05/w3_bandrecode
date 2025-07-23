@@ -210,6 +210,62 @@ html {
     margin-top: -3px;
 }
 
+.tour-section .ticket-tour {
+    margin-top: 30px;
+    margin-left: -9px;
+    margin-right: -9px;
+}
+
+.tour-section .ticket1 {
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+    margin-bottom: 40px;
+}
+
+.tour-section .ticket1 img {
+    width: 100%;
+    display: block;
+}
+
+.tour-section .ticket1 img:hover {
+    opacity: 0.6;
+}
+
+.tour-section .ticket-main {
+    background-color: white;
+    width: 100%;
+    padding: 15px 15px 23px 15px;
+}
+
+.tour-section .ticket-place {
+    font-weight: 600;
+}
+
+.tour-section .ticket-time {
+    color: #757575;
+    padding: 20px 0;
+}
+
+.tour-section .ticket-des {
+    margin-bottom: 20px;
+}
+
+.tour-section .ticket-buy {
+    text-decoration: none;
+    display: inline;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.tour-section .ticket-buy:hover {
+    color: black;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+
 #footer {
 
 }
