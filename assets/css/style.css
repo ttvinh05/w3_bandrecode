@@ -292,6 +292,7 @@ html {
     background-color: white;
     position: relative;
     margin-top: -150px;
+    animation: modalFadeIn ease 0.7s;
 }
 
 .modal-x {
@@ -370,6 +371,17 @@ html {
 }
 .modal-help .help {
     color: #2196f3;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 
