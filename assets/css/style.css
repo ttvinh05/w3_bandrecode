@@ -265,6 +265,72 @@ html {
     cursor: pointer;
 }
 
+#content .contact-content {
+    margin-top: 45px;
+}
+
+#content .contact-information {
+    width: 50%;
+    display: inline-block;
+}
+
+#content .contact-information1 {
+    padding: 3px 0;
+}
+
+#content .contact-content i {
+    padding-right: 10px;
+}
+
+#content .contact-content .fa-location-dot {
+    margin-right: 3px;
+}
+
+#content .contact-information1 p {
+    display: inline-block;
+    font-size: 18px;
+}
+
+#content .contact-send {
+    width: 50%;
+    float: right;
+}
+
+#content .contact-name {
+    width: 48%;
+    padding: 7px;
+    margin-right: 11.5px;
+    border: #ccc 1px solid;
+    margin-bottom: 9px;
+}
+
+#content .contact-email {
+    width: 48%;
+    padding: 7px;
+    border: #ccc 1px solid;
+    margin-bottom: 9px;
+}
+
+#content .contact-message {
+    width: 100%;
+    padding: 7px;
+    border: #ccc 1px solid;
+}
+
+#content .button-send {
+    float: right;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 16px;
+    color: white;
+    background-color: black;
+}
+
+#content .button-send:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
 
 #footer {
 
